@@ -15,6 +15,7 @@ Library for convenient work with query parameters.
 ## Example
 
 [react-router@5 example](https://www.npmjs.com/package/@use-query-params/react-router-5-adapter#example)
+
 [react-router@6 example](https://www.npmjs.com/package/@use-query-params/react-router-6-adapter#example)
 
 ## Api
