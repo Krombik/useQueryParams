@@ -12,9 +12,11 @@ Library for convenient work with query parameters.
 - Parsing params only once for each route changing
 - Strong typing for each method, so you don't need to care about it
 
-## Example
+## Usage
 
 [react-router@5 example](https://www.npmjs.com/package/react-router-5-adapter#example)
+
+[react-router@6 example](https://www.npmjs.com/package/react-router-6-adapter#example)
 
 ## Api
 

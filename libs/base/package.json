@@ -1,6 +1,6 @@
 {
   "name": "use-query-parameters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for convenient work with query parameters",
   "author": "Krombik",
   "license": "MIT",
