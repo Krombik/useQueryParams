@@ -44,5 +44,8 @@
     "search",
     "query param",
     "search param"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
