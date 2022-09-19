@@ -1880,14 +1880,6 @@
     "@typescript-eslint/types" "5.10.1"
     eslint-visitor-keys "^3.0.0"
 
-"@use-search-params/base@link:../../base":
-  version "0.0.0"
-  uid ""
-
-"@use-search-params/react-router-6-adapter@link:..":
-  version "0.0.0"
-  uid ""
-
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.11.1.tgz#2bfd767eae1a6996f432ff7e8d7fc75679c0b6a7"
@@ -6839,6 +6831,10 @@ react-refresh@^0.11.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
+"react-router-6-adapter@link:..":
+  version "0.0.0"
+  uid ""
+
 react-router-dom@6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.3.0.tgz#a0216da813454e521905b5fa55e0e5176123f43d"
@@ -8003,6 +7999,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+use-query-parameters@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/use-query-parameters/-/use-query-parameters-1.0.0.tgz#825655efe0af73efed3ba9552925384c06ae0a42"
+  integrity sha512-TTPg5AHR3qnczXhZRhvBMmUMx0yBPSRTVYKkRQ8oH46SEYFaOW8hto9YpyX6VpYV9X8axqeujsfaueqf3zipkA==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"

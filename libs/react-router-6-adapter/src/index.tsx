@@ -1,7 +1,7 @@
 import type { Adapter } from 'use-query-parameters';
-import type { History } from '@remix-run/router';
+import type { History } from 'history';
 import { useContext, useEffect } from 'react';
-import { UNSAFE_NavigationContext } from 'react-router-dom';
+import { UNSAFE_NavigationContext } from 'react-router';
 
 const reactRouter6Adapter: Adapter<History> = [
   () => useContext(UNSAFE_NavigationContext).navigator as History,
