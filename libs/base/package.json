@@ -4,7 +4,10 @@
   "description": "Library for convenient work with query parameters",
   "author": "Krombik",
   "license": "MIT",
-  "repository": "Krombik/useQueryParams",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krombik/useQueryParams.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
@@ -47,5 +50,10 @@
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Krombik/useQueryParams/issues"
+  },
+  "homepage": "https://github.com/Krombik/useQueryParams#readme"
 }
