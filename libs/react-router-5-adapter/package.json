@@ -1,5 +1,5 @@
 {
-  "name": "@use-query-params/react-router-5-adapter",
+  "name": "react-router-5-adapter",
   "version": "1.0.0",
   "description": "Library for convenient work with query parameters",
   "author": "Krombik",
@@ -22,10 +22,10 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "react-router": "5",
-    "@use-query-params/base": "1.0"
+    "use-query-parameters": "1.0"
   },
   "devDependencies": {
-    "@use-query-params/base": "^1.0.0",
+    "use-query-parameters": "^1.0.0",
     "@types/react": "^18.0.19",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",

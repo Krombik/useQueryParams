@@ -1,5 +1,5 @@
 {
-  "name": "@use-query-params/base",
+  "name": "use-query-parameters",
   "version": "1.0.0",
   "description": "Library for convenient work with query parameters",
   "author": "Krombik",

@@ -1,4 +1,4 @@
-# @use-query-params/base
+# use-query-parameters
 
 > Note: This library requires React v16.8 or later.
 
@@ -14,9 +14,7 @@ Library for convenient work with query parameters.
 
 ## Example
 
-[react-router@5 example](https://www.npmjs.com/package/@use-query-params/react-router-5-adapter#example)
-
-[react-router@6 example](https://www.npmjs.com/package/@use-query-params/react-router-6-adapter#example)
+[react-router@5 example](https://www.npmjs.com/package/react-router-5-adapter#example)
 
 ## Api
 
@@ -239,7 +237,7 @@ type Converter<T> = {
 Custom date converter example:
 
 ```ts
-import { Converter } from '@use-query-params/base';
+import { Converter } from 'use-query-parameters';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
 import parse from 'date-fns/parse';

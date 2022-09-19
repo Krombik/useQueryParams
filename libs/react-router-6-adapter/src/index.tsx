@@ -1,4 +1,4 @@
-import type { Adapter } from '@use-query-params/base';
+import type { Adapter } from 'use-query-parameters';
 import type { History } from '@remix-run/router';
 import { useContext, useEffect } from 'react';
 import { UNSAFE_NavigationContext } from 'react-router-dom';

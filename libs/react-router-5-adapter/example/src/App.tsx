@@ -9,7 +9,7 @@ import {
   QueryParamsProvider,
   QueryParamsGlobalProvider,
   stringifyUrl,
-} from '@use-search-params/base';
+} from 'use-query-parameters';
 
 import {
   BrowserRouter,
@@ -18,7 +18,7 @@ import {
   Link,
   useParams,
 } from 'react-router-dom';
-import reactRouter5Adapter from '@use-search-params/react-router-5-adapter';
+import reactRouter5Adapter from 'react-router-5-adapter';
 
 type HomeQueryParams = {
   a?: string;

@@ -1,17 +1,17 @@
-# @use-query-params/react-router-5-adapter
+# react-router-5-adapter
 
-This is adapter for [@use-query-params/base](https://www.npmjs.com/package/@use-query-params/bases)
+This is adapter for [use-query-parameters](https://www.npmjs.com/package/@use-query-params/bases)
 
 ## Install
 
 ```
-npm i @use-query-params/base @use-query-params/react-router-5-adapter
+npm i use-query-parameters react-router-5-adapter
 ```
 
 or
 
 ```
-yarn add @use-query-params/base @use-query-params/react-router-5-adapter
+yarn add use-query-parameters react-router-5-adapter
 ```
 
 ## Example
@@ -28,7 +28,7 @@ import {
   QueryParamsProvider,
   QueryParamsGlobalProvider,
   stringifyUrl,
-} from '@use-search-params/base';
+} from 'use-query-parameters';
 
 import {
   BrowserRouter,
@@ -38,7 +38,7 @@ import {
   useParams,
 } from 'react-router-dom';
 
-import reactRouter5Adapter from '@use-search-params/react-router-5-adapter';
+import reactRouter5Adapter from 'react-router-5-adapter';
 
 type HomeQueryParams = {
   a?: string;

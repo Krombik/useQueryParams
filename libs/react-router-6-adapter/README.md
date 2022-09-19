@@ -1,19 +1,19 @@
-# @use-query-params/react-router-6-adapter
+# react-router-6-adapter
 
-This is adapter for [@use-query-params/base](https://www.npmjs.com/package/@use-query-params/bases)
+This is adapter for [use-query-parameters](https://www.npmjs.com/package/@use-query-params/bases)
 
 > Note: this not works with react-router versions 6.4 and above
 
 ## Install
 
 ```
-npm i @use-query-params/base @use-query-params/react-router-6-adapter
+npm i use-query-parameters react-router-6-adapter
 ```
 
 or
 
 ```
-yarn add @use-query-params/base @use-query-params/react-router-6-adapter
+yarn add use-query-parameters react-router-6-adapter
 ```
 
 ## Example
@@ -30,7 +30,7 @@ import {
   QueryParamsProvider,
   QueryParamsGlobalProvider,
   stringifyUrl,
-} from '@use-search-params/base';
+} from 'use-query-parameters';
 
 import {
   BrowserRouter,
@@ -39,7 +39,7 @@ import {
   Link,
   useParams,
 } from 'react-router-dom';
-import reactRouter6Adapter from '@use-search-params/react-router-6-adapter';
+import reactRouter6Adapter from 'react-router-6-adapter';
 
 type HomeQueryParams = {
   a?: string;

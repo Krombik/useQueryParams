@@ -1,4 +1,4 @@
-import type { Adapter } from '@use-query-params/base';
+import type { Adapter } from 'use-query-parameters';
 import type { History } from 'history';
 import React from 'react';
 import { useHistory } from 'react-router';
