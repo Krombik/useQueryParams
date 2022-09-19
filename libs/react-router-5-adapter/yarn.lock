@@ -1204,9 +1204,6 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@use-query-params/base@../base":
-  version "1.0.0"
-
 acorn@^8.5.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
@@ -3601,6 +3598,11 @@ update-browserslist-db@^1.0.5:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
+
+use-query-parameters@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/use-query-parameters/-/use-query-parameters-1.0.0.tgz#825655efe0af73efed3ba9552925384c06ae0a42"
+  integrity sha512-TTPg5AHR3qnczXhZRhvBMmUMx0yBPSRTVYKkRQ8oH46SEYFaOW8hto9YpyX6VpYV9X8axqeujsfaueqf3zipkA==
 
 util-deprecate@^1.0.2:
   version "1.0.2"
